@@ -1,0 +1,133 @@
+body{
+	background-color: /*white*//*#E5E5FF*/
+#ffa500;
+	
+}
+
+
+.navbar{
+	background-color: /*#4C4CFF*/
+
+#654321;
+	
+	/*height: 100px;*/
+}
+
+h1{
+	/*text-shadow: 1px 1px 1px white;*/
+	color: white;
+	font-family: "Great Vibes";
+}
+
+.btn-outline-success
+{
+	color: white;
+	border-color: white;
+}
+
+
+/*@media (min-width: 1200px){
+.carousel-inner
+{
+height:500px;
+padding-top: 20px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.carousel-inner
+{
+height:300px;
+padding-top: 20px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.carousel-inner
+{
+height:100px;
+padding-top: 20px;
+}
+}
+@media (max-width: 767px){
+		.carousel-inner
+{
+height:50px;
+padding-top: 20px;
+}
+
+}*/
+#linklist{
+	/*background-color: #654321;*/
+	float: left;
+	
+
+}
+
+#linkbox{
+	padding: 20px 20px 20px 40px;
+
+	
+}
+
+#link1, #link2, #link3, #link4{
+	text-align: center;
+	background-color: #654321;
+	padding: 5px;
+	border:1px solid black;
+
+	
+}
+
+#link1 span,#link2 span, #link3 span, #link4 span{
+	font-size: 32px;
+	color: white;
+
+}
+
+#hometext span{
+	color: black;
+	font-size: 20px;
+
+}
+
+#link1:hover, #link2:hover, #link3:hover, #link4:hover{
+	background-color: black;
+	
+}
+
+a:hover{
+	color: #ffa500;
+}
+
+/*farmers page css*/
+
+#subhead span{
+	text-align: center;
+	font-size: 32px;
+	color: #ffa500;
+	text-shadow: 1px 1px 1px #ffa500;
+}
+
+#linka1, #linka2, #linka3, #linka4{
+	text-align: center;
+	background-color: #654321;
+	padding: 5px;
+	border:1px solid black;
+
+	
+}
+
+#linka1 span,#linka2 span, #linka3 span, #linka4 span{
+	font-size: 32px;
+	color: white;
+
+}
+
+
+#rowa{
+	padding-top: 20px;
+}
+
+#linka1:hover, #linka2:hover, #linka3:hover, #linka4:hover{
+	background-color: black;
+}
