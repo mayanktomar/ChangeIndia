@@ -1,14 +1,19 @@
 body{
 	background-color: /*white*//*#E5E5FF*/
-#ffa500;
+/*#ffa500*/ azure;
 	
+}
+
+#hometext
+{
+	background-color: azure;
 }
 
 
 .navbar{
 	background-color: /*#4C4CFF*/
 
-#654321;
+/*#654321*/ green;
 	
 	/*height: 100px;*/
 }
@@ -71,7 +76,7 @@ padding-top: 20px;
 
 #link1, #link2, #link3, #link4{
 	text-align: center;
-	background-color: #654321;
+	background-color: /*#654321*/ green;
 	padding: 5px;
 	border:1px solid black;
 
