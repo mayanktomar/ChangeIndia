@@ -46,6 +46,17 @@ function loadDoc() {
   };
   xhttp.open("GET", "farmer2.html", true);
   xhttp.send();
-  // document.getElementById("a1").innerHTML = temp.responseText;
-  // document.getElementById("a1").innerHTML = "farmer2.html".responseText;
+  
+}
+function loadDoc1() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("a1").innerHTML = this.responseText;
+
+    }
+  };
+  xhttp.open("GET", "farmer1.html", true);
+  xhttp.send();
+  
 }

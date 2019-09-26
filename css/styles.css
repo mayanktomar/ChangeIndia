@@ -7,13 +7,14 @@ body{
 #hometext
 {
 	background-color: azure;
+	font-family: Helvetica;
 }
 
 
 .navbar{
 	background-color: /*#4C4CFF*/
 
-/*#654321*/ green;
+/*#654321*/ green	;
 	
 	/*height: 100px;*/
 }
@@ -28,6 +29,10 @@ h1{
 {
 	color: white;
 	border-color: white;
+}
+
+#hometext span.sp-txt {
+	color : red;
 }
 
 
@@ -96,12 +101,12 @@ padding-top: 20px;
 }
 
 #link1:hover, #link2:hover, #link3:hover, #link4:hover{
-	background-color: black;
+	background-color: darkgreen;
 	
 }
 
 a:hover{
-	color: #ffa500;
+	color: /*#ffa500*/darkgreen;
 }
 
 /*farmers page css*/
@@ -109,13 +114,13 @@ a:hover{
 #subhead span{
 	text-align: center;
 	font-size: 32px;
-	color: #ffa500;
-	text-shadow: 1px 1px 1px #ffa500;
+	color: white;
+	text-shadow: 1px 1px 1px /*#ffa500*/darkgreen;
 }
 
 #linka1, #linka2, #linka3, #linka4{
 	text-align: center;
-	background-color: #654321;
+	background-color: /*#654321*/green;
 	padding: 5px;
 	border:1px solid black;
 
@@ -134,5 +139,15 @@ a:hover{
 }
 
 #linka1:hover, #linka2:hover, #linka3:hover, #linka4:hover{
-	background-color: black;
+	background-color: darkgreen;
+}
+
+#a1
+{
+	font-size: 25px;
+}
+
+#a1 .f1marq span
+{
+	color: white;
 }
