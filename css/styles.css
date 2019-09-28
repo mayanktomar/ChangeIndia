@@ -11,18 +11,25 @@ body{
 }
 
 
-.navbar{
+.navbar {
 	background-color: /*#4C4CFF*/
 
 /*#654321*/ green	;
 	
 	/*height: 100px;*/
+	background-image: url("back1.jpeg");
+	text-align: center;
+	
 }
+
+
 
 h1{
 	/*text-shadow: 1px 1px 1px white;*/
 	color: white;
 	font-family: "Great Vibes";
+	font-size: 60px;
+	background-image: url("back1.jpeg");
 }
 
 .btn-outline-success
@@ -31,44 +38,20 @@ h1{
 	border-color: white;
 }
 
+#carouselExampleIndicators
+{
+	margin: 30px;
+}
+
 #hometext span.sp-txt {
 	color : red;
 }
 
-
-/*@media (min-width: 1200px){
-.carousel-inner
-{
-height:500px;
-padding-top: 20px;
-}
-}
-@media (min-width: 992px) and (max-width: 1199px){
-	.carousel-inner
-{
-height:300px;
-padding-top: 20px;
-}
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-	.carousel-inner
-{
-height:100px;
-padding-top: 20px;
-}
-}
-@media (max-width: 767px){
-		.carousel-inner
-{
-height:50px;
-padding-top: 20px;
-}
-
-}*/
 #linklist{
 	/*background-color: #654321;*/
 	float: left;
+	
+
 	
 
 }
@@ -79,11 +62,13 @@ padding-top: 20px;
 	
 }
 
+
 #link1, #link2, #link3, #link4{
 	text-align: center;
 	background-color: /*#654321*/ green;
 	padding: 5px;
-	border:1px solid black;
+	border:1px solid #7CFC00;
+	margin:5px;
 
 	
 }
@@ -130,6 +115,7 @@ a:hover{
 #linka1 span,#linka2 span, #linka3 span, #linka4 span{
 	font-size: 32px;
 	color: white;
+	text-shadow: 2px 2px 2px green;
 
 }
 
@@ -151,3 +137,41 @@ a:hover{
 {
 	color: white;
 }
+
+.f1marq span
+{	font-size: 25px;
+	color: white;
+}
+
+#a1 h1
+{
+	color: black;
+}
+
+
+
+#a2
+{
+	font-size: 25px;
+}
+
+.glow {
+  /*font-size: 32px;*/
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-align: center;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #7cfc00, 0 0 20px #7cfc00, 0 0 30px #7cfc00, 0 0 40px #7cfc00, 0 0 50px #7cfc00, 0 0 60px #7cfc00, 0 0 70px #7cfc00;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #7cfc00, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green, 0 0 80px #7cfc00;
+  }
+}
+

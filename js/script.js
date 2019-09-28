@@ -60,3 +60,27 @@ function loadDoc1() {
   xhttp.send();
   
 }
+function loadDoc2() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("a1").innerHTML = this.responseText;
+
+    }
+  };
+  xhttp.open("GET", "farmer3.html", true);
+  xhttp.send();
+  
+}
+function loadEdu1() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("a2").innerHTML = this.responseText;
+
+    }
+  };
+  xhttp.open("GET", "education1.html", true);
+  xhttp.send();
+  
+}
