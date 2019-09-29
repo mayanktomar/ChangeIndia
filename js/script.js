@@ -84,3 +84,62 @@ function loadEdu1() {
   xhttp.send();
   
 }
+function loadEdu2() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("a2").innerHTML = this.responseText;
+
+    }
+  };
+  xhttp.open("GET", "education2.html", true);
+  xhttp.send();
+  
+}
+function loadEdu3() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("a2").innerHTML = this.responseText;
+
+    }
+  };
+  xhttp.open("GET", "education3.html", true);
+  xhttp.send();
+  
+}
+function loadPoll1() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("a3").innerHTML = this.responseText;
+
+    }
+  };
+  xhttp.open("GET", "pollution1.html", true);
+  xhttp.send();
+  
+}
+function loadPoll2() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("a3").innerHTML = this.responseText;
+
+    }
+  };
+  xhttp.open("GET", "pollution2.html", true);
+  xhttp.send();
+  
+}
+
+var insertHtml = function (selector, html) {
+  var targetElem = document.querySelector(selector);
+  targetElem.innerHTML = html.responseText;
+};
+
+var temp1="farmer3.html";
+
+function loadPoll3(){
+	insertHtml("#a3",temp1);
+}
