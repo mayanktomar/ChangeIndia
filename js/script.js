@@ -132,14 +132,54 @@ function loadPoll2() {
   xhttp.send();
   
 }
+function loadPoll3() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("a3").innerHTML = this.responseText;
 
-var insertHtml = function (selector, html) {
-  var targetElem = document.querySelector(selector);
-  targetElem.innerHTML = html.responseText;
-};
+    }
+  };
+  xhttp.open("GET", "pollution3.html", true);
+  xhttp.send();
+  
+}
 
-var temp1="farmer3.html";
 
-function loadPoll3(){
-	insertHtml("#a3",temp1);
+function loadHea1() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("a4").innerHTML = this.responseText;
+
+    }
+  };
+  xhttp.open("GET", "health1.html", true);
+  xhttp.send();
+  
+}
+
+function loadHea2() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("a4").innerHTML = this.responseText;
+
+    }
+  };
+  xhttp.open("GET", "health2.html", true);
+  xhttp.send();
+  
+}
+function loadHea3() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("a4").innerHTML = this.responseText;
+
+    }
+  };
+  xhttp.open("GET", "health3.html", true);
+  xhttp.send();
+  
 }
